@@ -1,0 +1,29 @@
+{
+  "name": "aventure",
+  "version": "1.0.0",
+  "description": "The best UI library for Typescript and React",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AathiEswar/aventure.git"
+  },
+  "keywords": [
+    "ui",
+    "library",
+    "component",
+    "animate",
+    "animation",
+    "visuals",
+    "react",
+    "typescript"
+  ],
+  "author": "Aathi Eswar S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AathiEswar/aventure/issues"
+  },
+  "homepage": "https://github.com/AathiEswar/aventure#readme"
+}
