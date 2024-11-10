@@ -24,7 +24,7 @@ export default {
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
     babel({
-      exclude: 'node_modules/**',
+      exclude: ['node_modules/**' , '**/node_modules/**'],
       babelHelpers: 'bundled',
     }),
   ],
