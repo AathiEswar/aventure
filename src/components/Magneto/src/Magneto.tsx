@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, ReactNode, HTMLAttributes } from 'react';
 import gsap from 'gsap';
 
-interface MagnetProps extends HTMLAttributes<HTMLDivElement> {
+interface MagnetoProps extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
   amplitudex?: number;
   periodx?: number;
@@ -9,7 +9,7 @@ interface MagnetProps extends HTMLAttributes<HTMLDivElement> {
   periody?: number;
 }
 
-const Magnet: React.FC<MagnetProps> = ({ children, amplitudex, periodx, amplitudey, periody, ...props }) => {
+const Magneto: React.FC<MagnetoProps> = ({ children, amplitudex, periodx, amplitudey, periody , ...props}) => {
   const magnetic = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -52,4 +52,4 @@ const Magnet: React.FC<MagnetProps> = ({ children, amplitudex, periodx, amplitud
   );
 };
 
-export default Magnet;
+export default Magneto;
