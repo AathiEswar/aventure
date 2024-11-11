@@ -1,5 +1,5 @@
 {
-  "name": "@aventure/magneto",
+  "name": "@aventure-org/magneto",
   "version": "1.0.0",
   "description": "Container for Magnetic Effect",
   "main": "dist/index.js",
