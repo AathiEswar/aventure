@@ -1,5 +1,5 @@
 {
-  "name": "@aventure-org/aventure",
+  "name": "aventure",
   "version": "1.0.8",
   "description": "The best UI library for Typescript and React",
   "main": "dist/index.js",
