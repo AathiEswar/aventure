@@ -1,6 +1,6 @@
 {
-  "name": "aventure",
-  "version": "1.0.0",
+  "name": "@aventure-org/aventure",
+  "version": "1.0.8",
   "description": "The best UI library for Typescript and React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -42,6 +42,7 @@
   "dependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "styled-components": "^6.1.13"
   },
   "devDependencies": {

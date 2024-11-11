@@ -30,10 +30,6 @@ export default {
       exclude: 'node_modules/**',
       babelHelpers: 'bundled',
     }),
-    // postcss({
-    //   extract: true,
-    //   plugins: [tailwindcss(), autoprefixer()],
-    // }),
   ],
   external: ['react', 'react-dom'],
 };
