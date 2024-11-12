@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 
 var Button = function (_a) {
     var label = _a.label, onClick = _a.onClick;
-    return React.createElement("button", { onClick: onClick }, label);
+    return React.createElement("button", { className: '', onClick: onClick }, label);
 };
 
 /******************************************************************************
